@@ -24,5 +24,29 @@ This is a simple Rest-API built using GO-Language. Users can either log in, regi
 Clone the repository to your local machine:
 
 ```bash
-    git clone https://github.com/hiroshiyoka/task-5-vix-btpns-Raka.git
+git clone https://github.com/hiroshiyoka/task-5-vix-btpns-Raka.git
+```
+
+Change into the project directory:
+
+```bash
+cd task-5-vix-btpns-Raka
+```
+
+Install the necessary dependencies:
+
+```bash
+go get -u github.com/gorilla/mux gorm.io/gorm gorm.io/driver/mysql golang.org/x/crypto
+```
+
+Install the JSON Web Token:
+
+```bash
+go get github.com/golang-jwt/jwt/v4
+```
+
+Run the project:
+
+```bash
+go run main.go
 ```

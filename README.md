@@ -6,20 +6,20 @@ Project-Based Intern: Fullstack Developer Virtual Internship Experience BTPN Sya
 
 This is a simple Rest-API built using GO-Language. Users can either log in, register, and log out. Afterward, users can add a profile photo and change the photo. Only logged-in or signed-up users have the privilege to delete or add a profile photo. Different users cannot delete or modify photos created by other users. The API utilizes JSON Web Token and Mux Middleware for both Authentication and Authorization.
 
-# Features
+## Features
 
 - User can log in, register, and log out.
 - User can add, update, delete, and view profile photos.
 - Authentication and authorization using JSON Web Token and Mux Middleware.
 
-# Technology/Framework Used
+## Technology/Framework Used
 
 - GO
 - Gorilla Mux
 - Gorm
 - MySQL
 
-# Installation
+## Installation
 
 Clone the repository to your local machine:
 
